@@ -15,6 +15,7 @@
  1) Flip your WhiteFox over.
  2) With the keys down you should see a small hole in the middle of the board.
  3) While the keyboard is plugged in, use a paperclip or other small object to press the button inside the case.
+    - NOTE: This disables the keyboard. Use a second physical or on-screen keyboard if you need to type in a command.
     - TIP: you can also configure a key combination to enter flash mode. On the default layout it's Fn-ESC.
 
 #### Failsafe mode
@@ -40,8 +41,10 @@ The keyboard exists flash mode automatically after a successful flash.
 
  1) Using [homebrew](https://brew.sh/) install [dfu-util](http://dfu-util.sourceforge.net/releases/) - `brew install dfu-util`
  2) Navigate to the directory you unzipped the firmware to
- 3) With the WhiteFox in flash mode enter the command `dfu-util -D kiibohd.dfu.bin`
- 4) You're done, enjoy your keyboard
+ 3) Put the WhiteFox in flash mode 
+     - NOTE: This disables the keyboard. Use a second physical or on-screen keyboard to type in further commands
+ 4) Execute the command `dfu-util -D kiibohd.dfu.bin`
+ 5) You're done, enjoy your keyboard
  
 ### Flashing - linux
 
@@ -50,10 +53,11 @@ The keyboard exists flash mode automatically after a successful flash.
     - on Arch Linux `pacman -S dfu-util`
     - on Fedora `sudo dnf install dfu-util`
  2) Navigate to the directory you unzipped the firmware to
- 3) With the WhiteFox in flash mode enter the command `dfu-util -D kiibohd.dfu.bin`
+ 3) Put the WhiteFox in flash mode 
+     - NOTE: This disables the keyboard. Use a second physical or on-screen keyboard to type in further commands
+ 4) Execute the command `dfu-util -D kiibohd.dfu.bin`
     - If the above fails, try running the command with `sudo` (i.e. `sudo dfu-util -D kiibohd.dfu.bin`)
-    
- 4) You're done, enjoy your keyboard
+ 5) You're done, enjoy your keyboard
  
 ### Flashing - Windows
  1) (First time only) Download [Zadig](http://zadig.akeo.ie/)
