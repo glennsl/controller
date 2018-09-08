@@ -74,12 +74,12 @@ The keyboard exists flash mode automatically after a successful flash.
  5) Click the button labeled "Flash". If you accidentally close it, there is an icon of a lightning bolt in the top right that you can press instead. 
  6) Click the three dots next to the file labeled "dfu-util command" and navigate to where you installed dfu-util. Select the application dfu-util.exe so that the configurator can use the software.
  7) Your layout should be auto-loaded into the .bin file field, but if you are flashing another file you acquired elsewhere, you can navigate to where that .bin file is and load it. 
- 8) Put the K-Type into "Flash Mode" by pressing the button on the back with a paperclip or other thin device.
+ 8) Put the keyboard into "Flash Mode" by pressing the button on the back with a paperclip or other thin device.
  9) Press Flash.
  
  If you see a FAILED message, it didn't work and you should join our [Discord Channel](https://discordapp.com/invite/9tpgDGS) and we will try and figure out what is going on. 
  
- If you see a SUCCESS message, congratulations on flashing your K-Type, and feel free to also join our Discord Channel to visit or say hello!
+ If you see a SUCCESS message, congratulations on flashing your keyboard, and feel free to also join our Discord Channel to visit or say hello!
  
  #### Command Prompt Flashing
  1) Create a layout using either the [web configurator](https://input.club/configurator/) or the [client side configurator](https://github.com/kiibohd/configurator/releases/latest) and download it somewhere you know the location of. 
